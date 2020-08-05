@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+</head>
+<body>
+    <h1>about</h1>
+    <h3><%= fave %></h3>
+    <ul>
+        <% for(let i=0; i<fave.length; i++) {%>
+            <li><%= fave[i] %></li>
+        <% } %>
+
+        <% fave.forEach((f)=>{ %>
+            <li><%= f %> </li>
+        <% }) %>
+
+        <li><%= fave[0]  %> </li>
+        <li><%= fave[1]  %> </li>
+        <li><%= fave[2]  %> </li>
+        <li><%= fave[3]  %> </li>
+    </ul>
+</body>
+</html>
+<%- include(''../partials/header.ejs) %>
+<%- include(''../partials/footer.ejs) %>

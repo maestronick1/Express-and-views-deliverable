@@ -1,10 +1,12 @@
 const express = require("express")
 
 const app = express()
-
+app.set('view engine', 'ejs');
+app.listen(8080, ()=>{
+    console.log("can you hear me now?")
 //home route
 app.get("/", (req, res)=>{
-    res.send("you have reached me")
+    res.sendrender("you have reached me")
 })
 
 //about route
@@ -17,8 +19,6 @@ app.get("/:input", (req, res)=>{
     console.log(req.params)
 })
 
-app.listen(8080, ()=>{
-    console.log("can you hear me now?")
 })
 app.get('/greet/:name', (req, res)=>{
     res.send(`hello ${req.params.first} ${req.params.last}`)
