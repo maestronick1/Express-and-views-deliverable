@@ -1,0 +1,93 @@
+
+header {
+	text-align: center;
+    font-family: 'helvetica', sans-serif;
+    background-image: url('/Users/nicholasphillips/Downloads/cheeryb.jpg');
+    background-repeat: no-repeat;
+    background-size: 105%;
+    border:5px solid #A9A9A9;
+    padding: 20px;
+    border-radius: 40px 0px;
+   
+    
+
+
+}
+.selfie {
+	width:120px;
+	border-radius: 45px 45px;
+	align-content: center;
+	border: 3px solid #A9A9A9;
+	display: block; 
+	margin: 0 auto;
+	padding:0px;
+}
+body { 
+    background-color:#d3d3d3;
+    padding: 20px;
+
+   }
+.hone a {
+	text-decoration: none;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #A9A9A9;
+    font-weight: bold;
+}
+ 
+.nav {
+    margin:0;
+    padding: 0; 
+	color: white;   
+	text-shadow: aqua 5px;
+ }
+.nav li{	
+	justify-content: center;
+	align-items: stretch;
+	display: inline;
+	padding: 20px;
+}
+.nav a {
+	text-decoration: none;
+	list-style: none;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #A9A9A9;
+    font-weight: bolder;  
+}
+.hone a:visited, .nav a:visited {
+	color: white;
+}
+
+.hone:hover,.selfie:hover {
+	transform: scale(1.2);
+}
+.nav a:hover{
+	border-top: 3px solid white;
+	transition: all 0.3s ease-in-out 0s;
+}
+p{
+text-indent:50px;
+font-style: normal;
+margin: 50px;
+text-align: justify;
+font-size: 18px;
+font-family: roboto, 'sans-serif';
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+.leftcolumn{
+	float: left;
+	width: 75%;
+}
+
+
+
+
+
+
+
+    
+

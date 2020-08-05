@@ -1,0 +1,22 @@
+{
+  "name": "express-and-views-deliverable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maestronick1/Express-and-views-deliverable.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maestronick1/Express-and-views-deliverable/issues"
+  },
+  "homepage": "https://github.com/maestronick1/Express-and-views-deliverable#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
